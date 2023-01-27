@@ -1,0 +1,9 @@
+#ifndef _MWTM_CONFIG_H
+#define _MWTM_CONFIG_H
+
+// mwtm version
+#define MWTM_VERSION_MAJOR @mwtm_VERSION_MAJOR@
+#define MWTM_VERSION_MINOR @mwtm_VERSION_MINOR@
+
+
+#endif

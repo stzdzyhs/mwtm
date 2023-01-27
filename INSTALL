@@ -1,0 +1,15 @@
+Installation
+==================
+Need to install cmake(>=3.10), libx11-dev, libxrandr-dev packages
+On Ubuntu, these can be install by command:
+sudo apt install cmake libx11-dev libxrandr-dev
+
+the source root dir: $MWTM-SRC
+
+build:
+    cd $MWTM-SRC
+    mkdir build; cd build;
+    cmake ..
+    make
+
+Cheers :)

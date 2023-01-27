@@ -1,0 +1,21 @@
+mwtm - Move Window to Monitor
+a tool to move the window to the specified monitor
+ 
+How to build
+Please refer to INSTALL
+
+Usage:
+mwtm win0Caption monitor0Name win1Caption monitor1Name ...
+winCaption can be substring of window title, case insenstive.
+all monitors can be listed by command "xrandr --listmonitors"
+
+For details, in Terminal,
+"wmctrl -l" will list windows.
+"xrandr" will list monitors
+
+Reference:
+https://askubuntu.com/questions/702071/move-windows-to-specific-screens-using-the-command-line
+https://www.x.org/wiki/UserDocumentation/
+https://tronche.com/gui/x/xlib/
+wmctrl, xrandr source code,  https://github.com/freedesktop
+
